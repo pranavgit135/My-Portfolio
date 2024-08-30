@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About-me</title>
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/bootstrap-icons.svg">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+</head>
+
+<body>
+  <header class="d-flex justify-content-md-between bg-light align-items-center p-3  w-100">
+    <div class=" align-items-center">
+      <h3>My-Portfolio</h3>
+    </div>
+    <nav>
+      <div class="nav d-flex  justify-content-md-between align-content-center">
+        <a href="index.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+        <a href="resume.html" class="nav-item">Resume</a>
+        <a href="" class="nav-item">Contact</a>
+      </div>
+    </nav>
+    <div>
+      <div class="d-flex nav ">
+        <a href="https://www.linkedin.com/in/pranav-khandekar-506657259/" class="nav-item"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/pranavgit135/" class="nav-item"><i class="bi bi-github"></i></a>
+        <a href="" class="nav-item"><i class="bi bi-instagram"></i></a>
+        <a href=""><img src="hamburgger.svg" alt=""></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Amaravati,Maharashtra, India</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+19 797 222 1303</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>khandekarpranav52@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe
+                src="https://www.google.com/maps/place/Amravati,+Maharashtra/@20.9014451,77.6698984,11.87z/data=!4m6!3m5!1s0x3bd6a4a67774bc15:0x3c7b3f78ca4f9635!8m2!3d20.9319821!4d77.7523039!16zL20vMDM3dm1y?entry=ttu"
+                frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate"
+              data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading...</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer class="justify-content-center text-center">
+    <footer id="footer" class="footer light-background">
+
+      <div class="container">
+        <div class="copyright text-center ">
+          <p>© <span>Copyright</span> <strong class="px-1 sitename">Pranav</strong> <span>All Rights
+              Reserved<br></span></p>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="credits mt-4">
+
+          Designed by <a href="">PK-webdeveloper</a>
+        </div>
+      </div>
+
+    </footer>
+  </footer>
+</body>
+
+</html>
